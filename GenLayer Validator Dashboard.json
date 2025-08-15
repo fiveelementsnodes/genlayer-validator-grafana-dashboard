@@ -24,8 +24,7 @@
   "panels": [
     {
       "datasource": {
-        "type": "prometheus",
-        "uid": "z1Pbbo1Vk"
+        "type": "prometheus"
       },
       "gridPos": {
         "h": 2,
@@ -150,8 +149,7 @@
     {
       "datasource": {
         "default": true,
-        "type": "prometheus",
-        "uid": "z1Pbbo1Vk"
+        "type": "prometheus"
       },
       "fieldConfig": {
         "defaults": {
@@ -237,8 +235,7 @@
     {
       "datasource": {
         "default": true,
-        "type": "prometheus",
-        "uid": "z1Pbbo1Vk"
+        "type": "prometheus"
       },
       "fieldConfig": {
         "defaults": {
@@ -339,8 +336,7 @@
     {
       "datasource": {
         "default": true,
-        "type": "prometheus",
-        "uid": "z1Pbbo1Vk"
+        "type": "prometheus"
       },
       "description": "Accepted: Transactions received and accepted into the mempool.\n\nActivated: Transactions moved from mempool to active state, ready for block inclusion.\n\nLeader Proposed: Transactions proposed by the node acting as leader.\n\nLeader Revealed: Transactions revealed by the leader.\n\nValidator Commit: Transactions the validator has committed to validate.\n\nValidator Reveal: Transactions the validator has revealed to complete the consensus process.\n",
       "fieldConfig": {
@@ -494,8 +490,7 @@
     {
       "datasource": {
         "default": true,
-        "type": "prometheus",
-        "uid": "z1Pbbo1Vk"
+        "type": "prometheus"
       },
       "description": "Low & stable: Normal steady-state memory usage.\n\nGradual increase: Expected for growing workloads, but should stabilize.\n\nSudden spikes: Possible burst in allocations (e.g., batch processing).\n\nContinuous growth without drop: Potential memory leak or missing garbage collection.",
       "fieldConfig": {
@@ -565,8 +560,7 @@
     {
       "datasource": {
         "default": true,
-        "type": "prometheus",
-        "uid": "z1Pbbo1Vk"
+        "type": "prometheus"
       },
       "fieldConfig": {
         "defaults": {
@@ -635,8 +629,7 @@
     {
       "datasource": {
         "default": true,
-        "type": "prometheus",
-        "uid": "z1Pbbo1Vk"
+        "type": "prometheus"
       },
       "fieldConfig": {
         "defaults": {
@@ -723,8 +716,7 @@
     {
       "datasource": {
         "default": true,
-        "type": "prometheus",
-        "uid": "z1Pbbo1Vk"
+        "type": "prometheus"
       },
       "fieldConfig": {
         "defaults": {
@@ -798,8 +790,7 @@
     {
       "datasource": {
         "default": true,
-        "type": "prometheus",
-        "uid": "z1Pbbo1Vk"
+        "type": "prometheus"
       },
       "fieldConfig": {
         "defaults": {
@@ -873,8 +864,7 @@
     {
       "datasource": {
         "default": true,
-        "type": "prometheus",
-        "uid": "z1Pbbo1Vk"
+        "type": "prometheus"
       },
       "fieldConfig": {
         "defaults": {
@@ -948,8 +938,7 @@
     {
       "datasource": {
         "default": true,
-        "type": "prometheus",
-        "uid": "z1Pbbo1Vk"
+        "type": "prometheus"
       },
       "description": "Low & stable values: Healthy memory management.\n\nGradual increase: Possible memory pressure or suboptimal allocation patterns.\n\nSudden spikes: Large heap cleanups or workload bursts.\n\nConsistently high values: Potential GC tuning issue or memory leak.",
       "fieldConfig": {
@@ -1045,8 +1034,7 @@
     {
       "datasource": {
         "default": true,
-        "type": "prometheus",
-        "uid": "z1Pbbo1Vk"
+        "type": "prometheus"
       },
       "description": "Stable goroutines + stable threads: Normal operation.\n\nRapid goroutine growth + stable threads: Internal workload backlog (CPU-bound or I/O-bound).\n\nStable goroutines + growing threads: Possible CGO-related issue or code forcing new threads.\n\nBoth increasing: Potential memory leak or resource saturation.\n\n",
       "fieldConfig": {
@@ -1160,8 +1148,7 @@
     {
       "datasource": {
         "default": true,
-        "type": "prometheus",
-        "uid": "z1Pbbo1Vk"
+        "type": "prometheus"
       },
       "description": "Low & stable values: Process is mostly idle.\n\nModerate, steady usage: Healthy workload handling.\n\nSudden spikes: Temporary bursts in computation.\n\nSustained high usage: Possible CPU saturation or inefficient code loops.",
       "fieldConfig": {
